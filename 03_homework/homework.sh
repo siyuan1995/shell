@@ -5,6 +5,7 @@
 # chmod +x ./homework.sh
 
 # On your terminal, input all the commands you have used to create the following:
+This is a test.
 
 # 1. How would you create 5 directories? Feel free to use any name for your directories.
 
