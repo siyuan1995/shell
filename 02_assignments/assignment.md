@@ -35,6 +35,51 @@ You are stuck in a virtual room and can only leave if you figure out the passwor
 **What is the secret password?**
 ```
 Your answer here...
+1.So I am at assignment folder now
+cd ..
+"cd cluse"-> "ls" get recipe list
+Then cat contents of the three txt, then find out "paper ring" is the odd one.
+
+2.cd ../../ then cd shows ls
+to find the count of item in each folder use this command: find . -mindepth 1 -maxdepth 1 -type d -exec sh -c 'printf "%s:\t" "$1"; ls -A "$1" | wc -l' _ {} \; | sort -k 2 -n
+and you get this:
+./season_10:          18
+./season_1:           24
+./season_2:           24
+./season_4:           24
+./season_5:           24
+./season_7:           24
+./season_8:           24
+./season_9:           24
+./season_3:           25
+./season_6:           25
+
+so the second answer is "10"
+
+3.cd season_6 cat ep_21.txt. you get "The One Where Ross Meets Elizabeth's Dad" fifth word is "meets"
+
+4.cd space_wars/fifth_movie.txt you get "Space Wars: Future Legends and Past Legacies" so the answer here is "Legacies"
+
+5.find albums -type f -name "*.txt" -exec cat {} \;
+
+Title: Red
+Duration: 3:43
+Title: Everything Has Changed
+Duration: 4:05
+Title: I Knew You Were Trouble
+Duration: 3:39
+Title: The Lucky One
+Duration: 4:00
+Title: Holy Ground
+Duration: 3:22
+
+This prints all the content of text file under album folder. so the answer for this one is "Lucky".
+
+6.cd ../../ cd movies/hanger_games cat movie4.txt
+the answer for this one is "stars"
+
+In conclusion, based on the 6 clues, the secure key is "Paper ring 10 meets Legacies Lucky stars"
+
 
 
 
